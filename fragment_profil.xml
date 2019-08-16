@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentProfil">
+
+    <!-- 15 Agustus 2019 - 10116152 - Moch Sholehudin Mawardi - AKB 4 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativ1">
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="92dp"
+        android:layout_height="104dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/profil" />
+
+
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="10116152"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nim"
+            android:layout_centerHorizontal="true"
+            android:text="Moch Sholehudin Mawardi"
+            android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:textAlignment="center"
+        android:text="IF-4"
+        android:id="@+id/kelas"
+        android:textSize="20dp"
+        />
+
+        <TextView
+            android:id="@+id/descdiri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kelas"
+            android:text="The World Is My Play Ground!!"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+</FrameLayout>
